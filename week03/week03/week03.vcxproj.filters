@@ -18,11 +18,5 @@
     <ClCompile Include="week03_hw01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week03_hw02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="week03_hw02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

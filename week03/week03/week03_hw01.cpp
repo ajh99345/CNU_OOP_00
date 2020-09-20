@@ -1,5 +1,6 @@
 #include <iostream>
 class SetValue {
+private:
 	int x, y;
 public:
 	void xsetter(int value);
