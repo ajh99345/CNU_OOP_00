@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\homework01.c" />
-    <ClCompile Include="..\..\..\..\..\Downloads\homework02.cpp" />
+    <ClCompile Include="..\homework01.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
