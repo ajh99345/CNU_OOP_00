@@ -34,7 +34,8 @@ My_cat::~My_cat() {		//Destructor
 }
 
 //eat 함수를 구현하세요.
-My_cat& My_cat::eat(int food) {	weight += food;
+My_cat& My_cat::eat(int food) {	
+	weight += food;
 	return *this;
 }
 
