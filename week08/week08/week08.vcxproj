@@ -18,14 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\homework_07_01.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1829f3a8-aaf1-4c4a-89c3-ed305d6ea623}</ProjectGuid>
-    <RootNamespace>week07</RootNamespace>
+    <ProjectGuid>{2fa2165f-24ec-4250-8fcf-03855b391042}</ProjectGuid>
+    <RootNamespace>week08</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,6 +138,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\WEEK08_CODE.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="homewordk_08_02.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

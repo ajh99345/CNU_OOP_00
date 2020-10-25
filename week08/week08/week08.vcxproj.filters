@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\homework_07_01.cpp">
+    <None Include="..\..\..\..\..\Downloads\WEEK08_CODE.zip">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="homewordk_08_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
