@@ -142,7 +142,7 @@
     <None Include="..\..\..\..\..\Downloads\WEEK08_CODE.zip" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="homewordk_08_02.cpp" />
+    <ClCompile Include="..\homework_08_02.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

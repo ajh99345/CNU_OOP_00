@@ -40,7 +40,7 @@ public:
 
 int main() {
 	Context *context = new Context(new OperationAdd());
-	std::cout << "10 + 5 = " << context ->executeStartegy(10, 5) << std::endl;
+	std::cout << "10 + 5 = " << context -> executeStartegy(10, 5) << std::endl;
 	context = new Context(new OperationSubstract());
 	std::cout << "10 - 5 = " << context -> executeStartegy(10, 5) << std::endl;
 	context = new Context(new OperationMultiply());

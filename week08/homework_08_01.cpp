@@ -23,9 +23,6 @@ public:
 	}
 };
 
-// Allocating and initializing GlobalClass's
-// static data member.  The pointer is being
-// allocated - not the object itself.
 GlobalClass* GlobalClass::s_instance = 0;
 
 void foo(void){
