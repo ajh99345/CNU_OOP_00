@@ -410,6 +410,13 @@ int main() {
                 }
             }
             else if (in[0] == 't') {
+                ofstream myfile;
+                myfile.open("test.txt");
+                for (int i = 0; i < word.size(); i++) {
+                    myfile << word[i];
+                    myfile << " ";
+                }
+                myfile.close();
                 return 0;
             }
             else {
